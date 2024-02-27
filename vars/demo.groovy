@@ -1,5 +1,5 @@
-def call(){
+def call(fp){
     
-    config2 = readFile "config.yaml"
+    config2 = readFile fp
     echo config2
 }
