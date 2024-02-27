@@ -1,13 +1,6 @@
 def call(){
 
     stages {
-        stage('Build') {
-            steps {
-                script{
-                    demo()
-                }
-            }
-        }
         stage('Test') {
             steps {
                 echo 'Testing..'
