@@ -1,16 +1,5 @@
 def call(){
-
-    stages {
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-
+    
+    config2 = readFile "config.yaml"
+    echo config2
 }
